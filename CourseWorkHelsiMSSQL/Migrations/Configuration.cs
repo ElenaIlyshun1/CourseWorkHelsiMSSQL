@@ -100,6 +100,75 @@ namespace CourseWorkHelsiMSSQL.Migrations
                   Name = "Черкаси"
               });
             #endregion
+
+            #region tblDoctors - Список ликарив
+            context.Doctors.AddOrUpdate(f => f.Id,
+                new Entities.Doctor
+                {
+                    Id = 1,
+                    Name = "Галина",
+                    Surname = "Бараболя",
+                    Spetialization = "Сімейний лікар",
+                    //DateBirthday = 
+                });
+            context.Doctors.AddOrUpdate(f => f.Id,
+               new Entities.Doctor
+               {
+                   Id = 2,
+                   Name = "Ярослав",
+                   Surname = "Панчук",
+                   Spetialization = "Терапевт",
+                   //DateBirthday = 
+               });
+            context.Doctors.AddOrUpdate(f => f.Id,
+                new Entities.Doctor
+                {
+                    Id = 3,
+                    Name = "Олександр",
+                    Surname = "Василишин",
+                    Spetialization = "Ортопед",
+                    //DateBirthday = 
+                });
+            context.Doctors.AddOrUpdate(f => f.Id,
+                new Entities.Doctor
+                {
+                    Id = 4,
+                    Name = "Оксана",
+                    Surname = "Костюкович",
+                    Spetialization = "Окуліст",
+                    //DateBirthday = 
+                });
+            context.Doctors.AddOrUpdate(f => f.Id,
+               new Entities.Doctor
+               {
+                   Id = 5,
+                   Name = "Мирослав",
+                   Surname = "Кухарчук",
+                   Spetialization = "Хірург",
+                   //DateBirthday = 
+               });
+            context.Doctors.AddOrUpdate(f => f.Id,
+                 new Entities.Doctor
+                 {
+                     Id = 6,
+                     Name = "Олег",
+                     Surname = "Трохименко",
+                     Spetialization = "Отоларинголог",
+                     //DateBirthday = 
+                 });
+            context.Doctors.AddOrUpdate(f => f.Id,
+                new Entities.Doctor
+                {
+                    Id = 7,
+                    Name = "Петро",
+                    Surname = "Михальчук",
+                    Spetialization = "Невропатолог",
+                    //DateBirthday = 
+                });
+
+            #endregion
+
+
         }
     }
 }

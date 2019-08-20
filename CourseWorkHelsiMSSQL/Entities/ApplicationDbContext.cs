@@ -14,5 +14,6 @@ namespace CourseWorkHelsiMSSQL.Entities
 
         }
         public DbSet<Cities> Citiess { get; set; }
+        public DbSet<Doctor> Doctors { get; set; }
     }
 }

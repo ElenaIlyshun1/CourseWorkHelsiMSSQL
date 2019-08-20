@@ -72,6 +72,7 @@
     </Compile>
     <Compile Include="Entities\ApplicationDbContext.cs" />
     <Compile Include="Entities\Cities.cs" />
+    <Compile Include="Entities\Doctor.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -81,6 +82,10 @@
     <Compile Include="Migrations\201908201539499_Add tblCitiesNames.cs" />
     <Compile Include="Migrations\201908201539499_Add tblCitiesNames.Designer.cs">
       <DependentUpon>201908201539499_Add tblCitiesNames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201908201852384_Add tblDoctors.cs" />
+    <Compile Include="Migrations\201908201852384_Add tblDoctors.Designer.cs">
+      <DependentUpon>201908201852384_Add tblDoctors.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -98,6 +103,9 @@
     </Compile>
     <EmbeddedResource Include="Migrations\201908201539499_Add tblCitiesNames.resx">
       <DependentUpon>201908201539499_Add tblCitiesNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908201852384_Add tblDoctors.resx">
+      <DependentUpon>201908201852384_Add tblDoctors.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
